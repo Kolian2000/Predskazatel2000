@@ -61,7 +61,7 @@ namespace TelegramBotExperiments
 
                 await botClient.SendTextMessageAsync(
                     chatId: message.Chat.Id,
-                    text: "Выберите вариант:",
+                    text: "Выберите  вариант:",
                     replyMarkup: replyKeyboardMarkup
                 );
             }

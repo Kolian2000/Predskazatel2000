@@ -9,6 +9,7 @@ public class HoroscopeTests
     {
         // Arrange
         var zodiacSign = "Aries";
+         
 
         // Act
         var horoscope = await Program.GetHoroscope(zodiacSign);
