@@ -93,3 +93,4 @@
 /Users/apple/Projects/TelgramBot/TelgramBot/bin/Debug/net6.0/nunit.engine.api.dll
 /Users/apple/Projects/TelgramBot/TelgramBot/bin/Debug/net6.0/nunit.engine.core.dll
 /Users/apple/Projects/TelgramBot/TelgramBot/bin/Debug/net6.0/testcentric.engine.metadata.dll
+/Users/apple/Projects/TelgramBot/TelgramBot/bin/Debug/net6.0/dotenv.net.dll

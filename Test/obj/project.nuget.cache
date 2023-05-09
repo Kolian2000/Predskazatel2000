@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "NVIBwOHeXB6GUfpo9DO9H8K27k55/Ff0QLiHCskEJ9nr+X+2YNAlraBYR9Q2CRuI69sqtirAkOyoF4EhZyKRPA==",
+  "dgSpecHash": "Gw+f5x7qXok7HfpF9ex2vd4z5UeJLP7ja7jNiTJDkkOiumViCeuqbyspao/NW/Io8uQs+kBMqttX5NSt/Ftnew==",
   "success": true,
   "projectFilePath": "/Users/apple/Projects/TelgramBot/Test/Test.csproj",
   "expectedPackageFiles": [
     "/Users/apple/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
+    "/Users/apple/.nuget/packages/dotenv.net/3.1.2/dotenv.net.3.1.2.nupkg.sha512",
     "/Users/apple/.nuget/packages/entityframework/6.4.4/entityframework.6.4.4.nupkg.sha512",
     "/Users/apple/.nuget/packages/geotimezone/5.2.0/geotimezone.5.2.0.nupkg.sha512",
     "/Users/apple/.nuget/packages/htmlagilitypack/1.11.46/htmlagilitypack.1.11.46.nupkg.sha512",

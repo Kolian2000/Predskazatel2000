@@ -1,20 +1,22 @@
 ﻿<Properties StartupConfiguration="{BE3A7A51-3CC2-44E7-BCFD-2C4B8F932342}|Default">
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.TelegramBotExperiments PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TelgramBot/EmptyClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TelgramBot/Program.cs">
     <Files>
-      <File FileName="TelgramBot/Program.cs" Line="85" Column="1" />
-      <File FileName="TelgramBot/User.cs" Line="74" Column="1" />
-      <File FileName="Test/UnitTest1.cs" Line="20" Column="1" />
-      <File FileName="TelgramBot/EmptyClass.cs" Line="24" Column="33" />
+      <File FileName="TelgramBot/User.cs" IsPinned="True" />
+      <File FileName="TelgramBot/Program.cs" Line="81" Column="1" />
+      <File FileName="Test/UnitTest1.cs" Line="21" Column="1" />
+      <File FileName="TelgramBot/EmptyClass.cs" Line="89" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TelgramBot" expanded="True">
+            <Node name="Solution Items" expanded="True" />
             <Node name="TelegramBotExperiments" expanded="True">
-              <Node name="EmptyClass.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
+            <Node name="Test" expanded="True" />
           </Node>
         </State>
       </Pad>

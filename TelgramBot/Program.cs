@@ -32,8 +32,7 @@ namespace TelegramBotExperiments
 
     public class Program 
     {
-        private static System.Threading.Timer timer;
-        public const string Text1 = "Ета кнопка";
+        
         static ITelegramBotClient bot = new TelegramBotClient("6266024489:AAEqa-TkCn0U2Z65mn1cid0To60OEl6AFrU");
         public static async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
         {
@@ -79,17 +78,10 @@ namespace TelegramBotExperiments
             }
             
         }
-        
-
-
-
-
-
-
 
         public static async Task<string> GetHoroscope(string zodiacSign)
         {
-            string openaiApiKey = "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";
+            string openaiApiKey = "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";
 
             var client = new RestClient("https://api.openai.com/v1/completions");
             var request = new RestSharp.RestRequest("", Method.Post);

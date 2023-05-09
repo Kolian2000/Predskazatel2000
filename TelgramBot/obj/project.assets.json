@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "dotenv.net/3.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/dotenv.net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/dotenv.net.dll": {}
+        }
+      },
       "EntityFramework/6.4.4": {
         "type": "package",
         "dependencies": {
@@ -1265,6 +1274,20 @@
     }
   },
   "libraries": {
+    "dotenv.net/3.1.2": {
+      "sha512": "lFm4hGX9JkNtAF36Uz4C3WT7MC6Ys802k0cPvlln8ydmH67GQjnToH+w645tQm1czAjW/V6tPE088lD77sYFGA==",
+      "type": "package",
+      "path": "dotenv.net/3.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotenv.net.3.1.2.nupkg.sha512",
+        "dotenv.net.nuspec",
+        "lib/netstandard1.6/dotenv.net.dll",
+        "lib/netstandard2.0/dotenv.net.dll",
+        "lib/netstandard2.1/dotenv.net.dll"
+      ]
+    },
     "EntityFramework/6.4.4": {
       "sha512": "yj1+/4tci7Panu3jKDHYizxwVm0Jvm7b7m057b5h4u8NUHGCR8WIWirBTw+8EptRffwftIWPBeIRGNKD1ewEMQ==",
       "type": "package",
@@ -3313,7 +3336,8 @@
       "System.Data.SQLite >= 1.0.117",
       "Telegram.Bot >= 18.0.0",
       "Telegram.Bots.Extensions.Polling >= 5.9.0",
-      "TimeZoneConverter >= 6.1.0"
+      "TimeZoneConverter >= 6.1.0",
+      "dotenv.net >= 3.1.2"
     ]
   },
   "packageFolders": {
@@ -3400,6 +3424,10 @@
           "TimeZoneConverter": {
             "target": "Package",
             "version": "[6.1.0, )"
+          },
+          "dotenv.net": {
+            "target": "Package",
+            "version": "[3.1.2, )"
           }
         },
         "imports": [
@@ -3418,7 +3446,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
       }
     }
   }

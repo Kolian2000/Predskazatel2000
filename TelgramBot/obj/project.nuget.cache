@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "g7ZKFup34oLVcqIfRAhRk+vQdDVtPwmhfLMT3rzu53DA9Pk6dhVIRjx3eKuJx1lF/2rDNwmGitaJKiHi+J1hRQ==",
+  "dgSpecHash": "ZuStZBCuVo4+ertJqbOw4ZJEoQG6NJJQN4bB/pA4hduXgpNkSgXq0/0N3lx4lracn3v7uLpQENtZ3k/0jxRlag==",
   "success": true,
   "projectFilePath": "/Users/apple/Projects/TelgramBot/TelgramBot/TelegramBotExperiments.csproj",
   "expectedPackageFiles": [
+    "/Users/apple/.nuget/packages/dotenv.net/3.1.2/dotenv.net.3.1.2.nupkg.sha512",
     "/Users/apple/.nuget/packages/entityframework/6.4.4/entityframework.6.4.4.nupkg.sha512",
     "/Users/apple/.nuget/packages/geotimezone/5.2.0/geotimezone.5.2.0.nupkg.sha512",
     "/Users/apple/.nuget/packages/htmlagilitypack/1.11.46/htmlagilitypack.1.11.46.nupkg.sha512",
