@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{BE3A7A51-3CC2-44E7-BCFD-2C4B8F932342}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{BE3A7A51-3CC2-44E7-BCFD-2C4B8F932342}|Default">
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
