@@ -75,6 +75,7 @@ namespace TelegramBotExperiments
                 // обработка выбора варианта 2
                 await SetHorscopTime.SaveZodiac(botClient, update.Message.Chat.Id, update, cancellationToken);
                 //await SetDailyMessageTime(botClient, update.Message.Chat.Id, update);
+                var ss = 0;
             }
             
         }
