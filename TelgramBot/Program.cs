@@ -98,10 +98,11 @@ namespace TelegramBotExperiments
                 n = 1,
                 stop = "."
 
+
             };
             string requestBody = JsonConvert.SerializeObject(requestJson);
-            request.AddJsonBody(requestBody);   
-
+            request.AddJsonBody(requestBody);
+            var x = 0;
             var response = await client.ExecuteAsync(request);
             if (response.StatusCode == System.Net.HttpStatusCode.OK)
             {
@@ -151,7 +152,7 @@ namespace TelegramBotExperiments
 
 
                 }
-
+                var yyyy = 0;
                 await Task.Delay(TimeSpan.FromMinutes(1));
                 Console.WriteLine("Работает..");
             }
